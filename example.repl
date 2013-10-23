@@ -1,0 +1,9 @@
+import LanguageKind._
+
+val scala = ProgrammingLanguage("Scala", Static)
+val groovy = ProgrammingLanguage("Groovy", Dynamic)
+val perl = ProgrammingLanguage("Perl", Cryptic)
+
+val vacancy = JobCriteria(Seq(scala, groovy))
+
+val candidate = Geek("Joe", "Probe", Seq(scala, perl))
